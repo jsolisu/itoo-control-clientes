@@ -28,4 +28,8 @@ export class ClienteServicio {
 
         return this.clientes;
     }
+
+    agregarCliente(cliente: Cliente): void {
+        this.clientesColeccion.add(cliente);
+    }
 }
